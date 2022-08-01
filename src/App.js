@@ -22,7 +22,10 @@ type= "text" placeholder='Add Todo'/>
 
   </form>
 
-  
+  <ul>
+
+    
+  </ul>
  </div>
 
 
