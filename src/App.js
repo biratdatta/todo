@@ -15,7 +15,9 @@ function App() {
 
 <input className={style.input}
 type= "text" placeholder='Add Todo'/>
+<button className={style.button}>
 
+</button>
 
   </form>
  </div>
