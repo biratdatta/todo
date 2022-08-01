@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 const style = {
  bg: `h-screen w-screen p-4 bg-gradient-to-r from-[#2F80ED] to-[#1CB5E0]`,
@@ -8,6 +8,9 @@ const style = {
 
 
 function App() {
+const [todos, setTodos] = useState()
+
+
   return (
     <div className={style.bg}>
  <div className={style.container}>
@@ -24,7 +27,7 @@ type= "text" placeholder='Add Todo'/>
 
   <ul>
 
-    
+
   </ul>
  </div>
 
