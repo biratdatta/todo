@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import { AiOutlinePlus } from "react-icons/ai";
-import TodO from "./Todo";
-
+import Todo from './Todo'
+ 
 
 
 
@@ -33,12 +33,10 @@ type= "text" placeholder='Add Todo'/>
   </form>
 
   <ul>
-<Todo />
+ <Todo />
 
   </ul>
  </div>
-
-
      </div>
   );
 }
