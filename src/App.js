@@ -9,8 +9,16 @@ const style = {
 function App() {
   return (
     <div className={style.bg}>
- 
-    </div>
+ <div className={style.container}>
+  <h3 classname={style.heading}>TO DO APP</h3>
+  <form>
+
+    
+  </form>
+ </div>
+
+
+     </div>
   );
 }
 
