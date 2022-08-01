@@ -10,10 +10,13 @@ function App() {
   return (
     <div className={style.bg}>
  <div className={style.container}>
-  <h3 classname={style.heading}>TO DO APP</h3>
-  <form>
+  <h3 className={style.heading}>TO DO APP</h3>
+  <form className={style.form}>
 
-    
+<input className={style.input}
+type= "text" placeholder='Add Todo'/>
+
+
   </form>
  </div>
 
