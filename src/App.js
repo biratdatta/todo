@@ -8,7 +8,7 @@ const style = {
 
 
 function App() {
-const [todos, setTodos] = useState()
+const [todos, setTodos] = useState(['Learn React', 'Grind Leetcode'])
 
 
   return (
