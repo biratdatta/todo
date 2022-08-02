@@ -35,7 +35,7 @@ type= "text" placeholder='Add Todo'/>
   <ul>
 
     {todos.map((todo, index)=> (
- <Todo key={index} todo={todo/>
+ <Todo key={index} todo={todo}/>
     ))}
   </ul>
  </div>

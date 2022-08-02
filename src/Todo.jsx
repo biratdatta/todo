@@ -4,7 +4,7 @@ const style = {
 
 }
 
- const Todo = () => {
+ const Todo = ({todo}) => {
    return (
      <li>
       className={style.li}
