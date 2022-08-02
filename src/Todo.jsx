@@ -1,10 +1,19 @@
  import React from 'react'
  
+const style = {
+
+}
+
  const Todo = () => {
    return (
      <li>
-      Todo
-      
+      className={style.li}
+      <div className={style.row}>
+        <input type="checkbox"  />
+
+
+
+      </div>
       </li>
    )
  }
