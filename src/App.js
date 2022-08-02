@@ -33,8 +33,10 @@ type= "text" placeholder='Add Todo'/>
   </form>
 
   <ul>
- <Todo />
 
+    {todos.map((todo, index)=> (
+ <Todo key={index} todo={todo/>
+    ))}
   </ul>
  </div>
      </div>
