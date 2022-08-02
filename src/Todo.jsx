@@ -1,5 +1,5 @@
  import React from 'react'
- 
+ import {FaRegTrashAlt} from 'react-icons/fa'
 const style = {
 
 }
@@ -16,6 +16,8 @@ const style = {
 
 
       </div>
+      <button> {<FaRegTrashAlt />}
+      </button>
       </li>
    )
  }
