@@ -38,6 +38,7 @@ type= "text" placeholder='Add Todo'/>
  <Todo key={index} todo={todo}/>
     ))}
   </ul>
+  <p> You have 2 todos</p>
  </div>
      </div>
   );
