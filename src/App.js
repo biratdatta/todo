@@ -25,6 +25,17 @@ function App() {
 const [todos, setTodos] = useState(['Learn React', 'Grind Leetcode'])
 
 
+// Create todo
+// Read todo from Firebase
+
+
+
+
+
+//Update todo in friebase
+//Delete todo
+
+
   return (
     <div className={style.bg}>
  <div className={style.container}>
