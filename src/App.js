@@ -1,7 +1,11 @@
-import React,{useState} from "react";
+import { collection, query } from "firebase/firestore";
+import React,{useState, useEffect} from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 import Todo from './Todo'
  
+
+
+
 
 
 
@@ -27,7 +31,9 @@ const [todos, setTodos] = useState(['Learn React', 'Grind Leetcode'])
 
 // Create todo
 // Read todo from Firebase
-
+useEffect(()=>{
+const q = query(collection(db,'todos'))
+},[])
 
 
 
