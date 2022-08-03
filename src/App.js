@@ -1,8 +1,10 @@
-import { collection, query } from "firebase/firestore";
+import { collection, onSnapshot, query } from "firebase/firestore";
 import React,{useState, useEffect} from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 import Todo from './Todo'
- 
+ import {db} from './firebase'
+ import { query,collection} from "firebase/firestore";
+
 
 
 
@@ -33,6 +35,7 @@ const [todos, setTodos] = useState(['Learn React', 'Grind Leetcode'])
 // Read todo from Firebase
 useEffect(()=>{
 const q = query(collection(db,'todos'))
+const unsubscribe = onSnapshot(q)
 },[])
 
 
